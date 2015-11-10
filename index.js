@@ -5,7 +5,7 @@ var path = require('path');
 var Funnel = require('broccoli-funnel');
 
 module.exports = {
-  name: 'ember-cli-font-awesome',
+  name: 'ember-cli-font-awesome-reico',
 
   included: function(app, parentAddon) {
     this._super.included(app);
