@@ -35,7 +35,7 @@ module.exports = {
     var fontAwesomePath = path.join(this.app.bowerDirectory, 'font-awesome');
     var fontAwesomeTree = new Funnel(this.treeGenerator(fontAwesomePath), {
       srcDir: '/scss',
-      destDir: '/app/styles/font-awesome'
+      destDir: '/app/styles'
     });
 
     return fontAwesomeTree;
